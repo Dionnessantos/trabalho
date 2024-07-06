@@ -14,6 +14,7 @@
             <td scope="row">{{$product->description}}</td>
             <td scope="row">{{$product->price}}</td>
             <td scope="row">{{$product->stock}}</td>
+            <td> <a href="{{route('products.edit', $product->id)}}">Editar</a></td>
         </tr>
         @endforeach
     </tbody>
