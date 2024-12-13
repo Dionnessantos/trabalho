@@ -1,4 +1,4 @@
-<h1>Cadastro de Produto</h1>
+<h1>Produto</h1>
 <label for="name">Nome:</label>
 <input type="text" id="name" name="name" placeholder="Digite o nome do produto" value="{{$product->name}}" readonly>
 <br>
